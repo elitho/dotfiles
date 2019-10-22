@@ -23,3 +23,9 @@ i3blocks (sudo apt install i3blocks)
 i3-gaps (https://gist.github.com/boreycutts/6417980039760d9d9dac0dd2148d4783)
 
 move i3 config and i3blocks config
+
+also needs:
+spotify
+slack
+thunderbird
+intellij
