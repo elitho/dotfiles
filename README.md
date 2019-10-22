@@ -14,7 +14,6 @@ mkdir ~/.fonts
 
 mkdir -p ~/.config/fontconfig/conf.d
 
-clone repo
 
 cp ~/PATH\_TO\_REPO/dotfiles/fonts/\* ~/.fonts
 
@@ -22,12 +21,15 @@ fc-cache -vf ~/.fonts
 
 cp ~/PATH\_TO\_REPO/dotfiles/fonts/fontconfig/10-powerline-symbols.conf ~/.config/fontconfig/conf.d
 
+
 tmux (sudo apt install tmux)
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 
 move tmux config
+
+prefix + I
 
 
 i3 (sudo apt install i3)
