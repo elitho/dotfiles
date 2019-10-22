@@ -33,13 +33,9 @@ move tmux config
 prefix + I
 
 
-i3 (sudo apt install i3)
-
-i3blocks (sudo apt install i3blocks)
-
 i3-gaps (https://gist.github.com/boreycutts/6417980039760d9d9dac0dd2148d4783)
 
-
+i3blocks (sudo apt install i3blocks)
 
 move i3 config and i3blocks config
 
