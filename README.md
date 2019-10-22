@@ -9,6 +9,7 @@ oh-my-zsh (sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh
 
 move zsh config
 
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting/
 
 mkdir ~/.fonts
 
