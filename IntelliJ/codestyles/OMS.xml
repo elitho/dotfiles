@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<code_scheme name="OMS">
+  <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="9999" />
+  <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="4" />
+  <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
+    <value />
+  </option>
+  <option name="IMPORT_LAYOUT_TABLE">
+    <value>
+      <package name="java" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="javax" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="org" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="net" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="ise" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="com" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="" withSubpackages="true" static="false" />
+      <emptyLine />
+      <package name="java" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="javax" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="org" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="net" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="ise" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="com" withSubpackages="true" static="true" />
+      <emptyLine />
+      <package name="" withSubpackages="true" static="true" />
+    </value>
+  </option>
+  <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="true" />
+  <option name="KEEP_LINE_BREAKS" value="false" />
+  <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+  <option name="BINARY_OPERATION_WRAP" value="1" />
+  <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+  <option name="TERNARY_OPERATION_WRAP" value="1" />
+  <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+  <option name="WRAP_LONG_LINES" value="true" />
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
+  <codeStyleSettings language="CoffeeScript">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="ECMA Script Level 4">
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="Groovy">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="BINARY_OPERATION_WRAP" value="1" />
+    <option name="BINARY_OPERATION_SIGN_ON_NEXT_LINE" value="true" />
+    <option name="TERNARY_OPERATION_WRAP" value="1" />
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="WRAP_LONG_LINES" value="true" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="KEEP_LINE_BREAKS" value="false" />
+    <option name="SPACE_WITHIN_ARRAY_INITIALIZER_BRACES" value="true" />
+    <option name="BINARY_OPERATION_WRAP" value="1" />
+    <option name="TERNARY_OPERATION_WRAP" value="1" />
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="WRAP_LONG_LINES" value="true" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
+    </indentOptions>
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
+      <rules>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PUBLIC</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PROTECTED</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PACKAGE_PRIVATE</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PRIVATE</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PUBLIC</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PROTECTED</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PACKAGE_PRIVATE</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PRIVATE</MODIFIER>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PUBLIC</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PROTECTED</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PACKAGE_PRIVATE</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PRIVATE</MODIFIER>
+              <MODIFIER>FINAL</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PUBLIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PROTECTED</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PACKAGE_PRIVATE</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>FIELD</TYPE>
+              <MODIFIER>PRIVATE</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>FIELD</TYPE>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>CONSTRUCTOR</TYPE>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>METHOD</TYPE>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>METHOD</TYPE>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>ENUM</TYPE>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>INTERFACE</TYPE>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <AND>
+              <TYPE>CLASS</TYPE>
+              <MODIFIER>STATIC</MODIFIER>
+            </AND>
+          </match>
+        </rule>
+        <rule>
+          <match>
+            <TYPE>CLASS</TYPE>
+          </match>
+        </rule>
+      </rules>
+    </arrangement>
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="TERNARY_OPERATION_SIGNS_ON_NEXT_LINE" value="true" />
+    <option name="IF_BRACE_FORCE" value="3" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="PHP">
+    <option name="WRAP_LONG_LINES" value="true" />
+    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
+  </codeStyleSettings>
+  <codeStyleSettings language="SQL">
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="8" />
+      <option name="TAB_SIZE" value="4" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>
+
