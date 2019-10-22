@@ -41,7 +41,11 @@ move i3 config and i3blocks config
 
 
 
-also needs:
+also need:
+
+feh
+
+compton
 
 spotify
 
