@@ -28,8 +28,8 @@ mkdir -p ~/.config/fontconfig/conf.d
 ```
 - Copy fonts and config from this repo
 ```
-cp ~/PATH\_TO\_REPO/dotfiles/fonts/\* ~/.fonts
-cp ~/PATH\_TO\_REPO/dotfiles/fonts/fontconfig/10-powerline-symbols.conf ~/.config/fontconfig/conf.d
+cp ~/PATH_TO_REPO/dotfiles/fonts/* ~/.fonts
+cp ~/PATH_TO_REPO/dotfiles/fonts/fontconfig/10-powerline-symbols.conf ~/.config/fontconfig/conf.d
 fc-cache -vf ~/.fonts
 ```
 ### Tmux
