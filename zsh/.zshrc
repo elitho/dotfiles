@@ -16,6 +16,7 @@ export NPM_TOKEN=c7b5849d-7455-4a0e-b884-52bdc64f08b2
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="agnoster"
+DEFAULT_USER=`whoami`
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -114,4 +115,4 @@ alias i3config="vim ~/.config/i3/config"
 export NVM_DIR="/home/elias/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-source /home/elias/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
