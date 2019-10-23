@@ -14,14 +14,14 @@ sudo apt install zsh
 ```
 cp ~/PATH_TO_REPO/dotfiles/zsh/.zshrc ~/ 
 ```
+- Clone zsh-syntax-highlighting repo (Its sourced in the bottom of the zsh config)
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting/
+```
 ### Oh-My-Zsh
 - Install Oh-My-Zsh
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-- Clone zsh-syntax-highlighting repo (Its sourced in the bottom of the zsh config)
-```
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh-syntax-highlighting/
 ```
 ### i3-gaps
 - Install dependecies. (If you have i3 installed, remove and purge to avoid conflicts)
