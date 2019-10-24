@@ -109,8 +109,8 @@ alias idea="intellij-idea-ultimate .&"
 alias tmuxconfig="vim ~/.tmux.conf"
 alias tmuxsource="tmux source ~/.tmux.conf"
 alias i3config="vim ~/.config/i3/config"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias i3blocksconfig="vim ~/.config/i3/i3blocks.conf"
+alias roficonfig="vim ~/.config/rofi/config.rasi"
 
 export NVM_DIR="/home/elias/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
