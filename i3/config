@@ -30,7 +30,7 @@ font pango:DejaVu Sans Mono 9
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal --hide-menubar
+bindsym $mod+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -142,7 +142,7 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # Assign workspaces
 # Google-chrome
-assign [class="Google-chrome"] $workspace2
+# assign [class="Google-chrome"] $workspace2
 # Slack
 assign [class="Slack"] $workspace3
 # Thunderbird
@@ -188,12 +188,12 @@ bindsym XF86AudioPrev exec playerctl previous
 #bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness with notification
 
 # Startup apps
-exec google-chrome
+exec --no-startup-id i3-msg 'workspace $workspace2; exec google-chrome'
 exec spotify
 exec thunderbird
 exec slack
 exec compton
-exec --no-startup-id i3-msg 'workspace $workspace1; exec gnome-terminal --hide-menubar'
+exec --no-startup-id i3-msg 'workspace $workspace1; exec urxvt'
 exec intellij-idea-ultimate
 exec_always feh --bg-scale $HOME/Pictures/bakgrunn.png # Wallpaper
 
@@ -254,6 +254,7 @@ bar {
 	colors {
 		background #212425CC
 	}
+	position top
 	i3bar_command i3bar --transparency
         status_command i3blocks -c ~/.config/i3/i3blocks.conf #i3status
 	tray_output $leftMonitor
