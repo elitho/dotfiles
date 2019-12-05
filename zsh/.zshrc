@@ -111,6 +111,10 @@ alias tmuxsource="tmux source ~/.tmux.conf"
 alias i3config="vim ~/.config/i3/config"
 alias i3blocksconfig="vim ~/.config/i3/i3blocks.conf"
 alias roficonfig="vim ~/.config/rofi/config.rasi"
+alias polybarconfig="vim ~/.config/polybar/config"
+alias urxvtconfig="vim ~/.Xresources"
+alias dunstconfig="vim ~/.config/dunst/dunstrc"
+alias ssh="TERM=xterm ssh"
 
 export NVM_DIR="/home/elias/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

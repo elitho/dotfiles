@@ -1,6 +1,6 @@
 *.foreground:   #EEEEEC
 *.depth: 32
-*.background:   rgba:2000/2000/2000/ef00
+*.background:   rgba:2000/2000/2000/dfff
 *.cursorColor:  #ffffff
 ! black
 *.color0:       #212425

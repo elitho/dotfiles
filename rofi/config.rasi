@@ -11,8 +11,8 @@ configuration {
 }
 
 * {
-   maincolor:        #2b496f;
-   highlight:        bold #3E6DAB;
+   maincolor:        #7FBEF8;
+   highlight:        bold #7FBEF8;
    urgentcolor:      #e53714;
 
    fgwhite:          #cfcfcf;
@@ -140,7 +140,7 @@ inputbar {
 prompt {
    padding:6px 9px;
    background-color: @maincolor;
-   text-color:@fgwhite;/*@blackwidget;*/
+   text-color:@blackwidget;
 }
 
 entry {
