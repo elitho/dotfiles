@@ -233,7 +233,6 @@ bindsym $mod+r mode "resize"
 
 set $bg-color 	              #285577
 set $bg-border-color          #4c7899
-#2f343f
 set $inactive-bg-color        #222222
 set $inactive-bg-border-color #8a7f8f
 set $text-color               #f3f4f5
