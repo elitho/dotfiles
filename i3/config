@@ -173,9 +173,9 @@ focus_follows_mouse no
 popup_during_fullscreen smart
 
 # Audio controls
-bindsym XF86AudioRaiseVolume exec "amixer set Master 5%+ unmute" exec pkill -RTMIN+10 i3blocks 
-bindsym XF86AudioLowerVolume exec "amixer set Master 5%- unmute" exec pkill -RTMIN+10 i3blocks 
-bindsym XF86AudioMute exec "amixer set Master toggle" exec pkill -RTMIN+10 i3blocks 
+bindsym XF86AudioRaiseVolume exec "amixer -D pulse set Master 5%+ unmute" exec pkill -RTMIN+10 i3blocks 
+bindsym XF86AudioLowerVolume exec "amixer -D pulse set Master 5%- unmute" exec pkill -RTMIN+10 i3blocks 
+bindsym XF86AudioMute exec "amixer -D pulse set Master toggle" exec pkill -RTMIN+10 i3blocks 
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
@@ -239,12 +239,13 @@ set $text-color               #f3f4f5
 set $inactive-text-color      #8a7f8f
 set $urgent-bg-color          #E53935
 set $urgent-bg-border-color   #ed7a78
+set $focused-inactive         #dfdfdf
 
 # window colors
 #                       border                    background         text                 indicator
 client.focused          $bg-border-color          $bg-color          $text-color          $bg-color
 client.unfocused        $inactive-bg-border-color $inactive-bg-color $inactive-text-color $inactive-bg-color
-client.focused_inactive $inactive-bg-border-color $inactive-bg-color $inactive-text-color $inactive-bg-color
+client.focused_inactive $focused-inactive         $inactive-bg-color $focused-inactive    $inactive-bg-color
 client.urgent           $urgent-bg-border-color   $urgent-bg-color   $text-color          $urgent-bg-color
 
 #hide_edge_borders both

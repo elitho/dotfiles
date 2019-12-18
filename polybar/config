@@ -105,7 +105,7 @@ font-6 = siji:pixelsize=10;1
 
 modules-left = i3
 modules-center = date
-modules-right = weather player-mpris-tail powermenu
+modules-right = weather pulseaudio player-mpris-tail powermenu
 
 ;override-redirect = true 
 tray-reparent = true
@@ -260,12 +260,16 @@ label = %date% %time%
 [module/pulseaudio]
 type = internal/pulseaudio
 
-format-volume = <label-volume> 
-label-volume =  %percentage%%
+format-volume = <ramp-volume> <label-volume> 
+label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 
-label-muted =   muted
-label-muted-foreground = #666
+label-muted =  %{F#7fbef8}%{F-} muted
+;label-muted-foreground = #666
+
+ramp-volume-0 = %{F#7fbef8}%{F-}
+ramp-volume-1 = %{F#7fbef8}%{F-}
+ramp-volume-2 = %{F#7fbef8}%{F-}
 
 ;bar-volume-width = 10
 ;bar-volume-foreground-0 = #55aa55
