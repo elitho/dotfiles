@@ -105,7 +105,7 @@ font-6 = siji:pixelsize=10;1
 
 modules-left = i3
 modules-center = date
-modules-right = weather pulseaudio player-mpris-tail powermenu
+modules-right = filesystem cpu pulseaudio player-mpris-tail powermenu
 
 ;override-redirect = true 
 tray-reparent = true
@@ -162,13 +162,13 @@ format = CPU <ramp-coreload> <label>
 ;   %percentage-sum% - Cumulative load on all cores
 ;   %percentage-cores% - load percentage for each core
 ;   %percentage-core[1-9]% - load percentage for specific core
-label = %percentage%%
+label = %percentage:2:3%%
 
 ; Spacing between individual per-core ramps
-ramp-coreload-spacing = 1
-ramp-coreload-0 = %{F#ccff66}▁%{F-}
-ramp-coreload-1 = %{F#ccff66}▂%{F-}
-ramp-coreload-2 = %{F#ccff66}▃%{F-}
+ramp-coreload-spacing = 0
+ramp-coreload-0 = %{F#7fbef8}▁%{F-}
+ramp-coreload-1 = %{F#7fbef8}▂%{F-}
+ramp-coreload-2 = %{F#7fbef8}▃%{F-}
 ramp-coreload-3 = %{F#ffff00}▄%{F-}
 ramp-coreload-4 = %{F#ffff00}▅%{F-}
 ramp-coreload-5 = %{F#f00}▆%{F-}
@@ -420,7 +420,7 @@ fixed-values = false
 spacing = 2
 
 format-mounted = <label-mounted>
-label-mounted =  %used% / %total%
+label-mounted = %{F#7fbef8}%{F-} %used% / %total%
 
 
 [settings]

@@ -98,11 +98,21 @@ source $ZSH/oh-my-zsh.sh
 # export ARCHFLAGS="-arch x86_64"
 
 function logz() {
-	cd /local/home/c_$1/catalina/logs
+  cd /local/home/c_$1/catalina/logs
 }
 
 function work() {
-	cd ~/workspace/$1
+  cd ~/workspace/$1
+}
+
+function killz() {
+  if [ -z ${1+x} ];
+    then 
+      sudo pkill -ef catalina
+      sudo pkill -ef nginx;
+    else 
+      sudo pkill -ef $1;
+  fi
 }
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
