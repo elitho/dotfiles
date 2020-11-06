@@ -151,6 +151,9 @@ assign [class="Thunderbird"] $workspace3
 assign [class="jetbrains-idea"] $workspace4
 # Spotify
 for_window [class="Spotify"] move to workspace $workspace5         
+#float yad-calendar
+for_window [class="Yad"] floating enable
+
 
 # move workspace to another monitor
 bindsym $mod+ctrl+Right exec i3-msg move workspace to output right 

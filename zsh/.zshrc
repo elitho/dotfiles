@@ -5,11 +5,11 @@
 
 export ZSH=$HOME/.oh-my-zsh
 export SVNROOT=svn+ssh://svn.osl.manamind.com/export/svn
-export PATH=$PATH:/home/elias/workspace/util:/home/elias/workspace/svn/deploy
 export JAVA_HOME=/local/java/jdk1.8.0_202
-export COLLECT_HOME=/local/collect/collect-6.19.3
+export COLLECT_HOME=/local/collect/collect-6.23.0
 export FONTAWESOME_TOKEN=605C02CB-E29B-4637-91C7-E57F176FA9FF
 export NPM_TOKEN=c7b5849d-7455-4a0e-b884-52bdc64f08b2
+export PATH=$PATH:$HOME/workspace/util:$HOME/workspace/svn/deploy:$HOME/binz:$COLLECT_HOME/product/bin
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,

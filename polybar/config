@@ -104,7 +104,7 @@ font-5 = Inconsolata Nerd Font Mono:style=Medium:pixelsize=12
 font-6 = siji:pixelsize=10;1
 
 modules-left = i3
-modules-center = date
+modules-center = popup-calendar
 modules-right = filesystem cpu pulseaudio player-mpris-tail powermenu
 
 ;override-redirect = true 
@@ -240,6 +240,15 @@ ramp-signal-foreground = ${colors.foreground-alt}
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/popup-calendar]
+type = custom/script
+exec = ~/.scripts/polybar-scripts/popup-calendar.sh
+;content = "%{T2}◢%{T-}"
+interval = 1
+click-left = ~/.scripts/polybar-scripts/popup-calendar.sh --popup &
+;format-foreground = ${colors.primary}
+;format-background = ${colors.light_color}
 
 [module/date]
 type = internal/date
