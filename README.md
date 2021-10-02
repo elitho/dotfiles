@@ -52,6 +52,16 @@ sudo apt install i3blocks feh compton i3lock
 cp ~/PATH_TO_REPO/dotfiles/i3/config ~/.config/i3
 cp ~/PATH_TO_REPO/dotfiles/i3blocks/i3blocks.conf ~/.config/i3
 ```
+
+### Other
+```
+sudo apt install rofi
+sudo apt install dunst
+install urxvt terminal
+install polybar
+and copy/symlink config. ~/.config/dunst/ ~/.config/rofi ~/.config/polybar
+```
+
 ### Tmux
 - Install tmux
 ```
